@@ -1,0 +1,98 @@
+/* #E6E0AF #FFF7B0 #FFF9CB #BEB991 #99967E Roboto 400, Roboto Slab 100*/
+body{
+  background-color: #E6E0AF;
+}
+#container{
+  display:grid;
+  /* justify-content: stretch; */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin: 5% 20% 5% 20%;
+  box-shadow: 0 0 20px 8px rgba(153, 150, 126, 0.25);
+  padding: 1em 1em;
+  border: 1px solid #BEB991;
+  background-color: #FFF9CB;
+  color: #99967E;
+}
+
+h1{
+  margin: 2.5rem;
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+hr{
+  border: 0;
+  height: 1px;
+  background: #99967E;
+  color:#99967E;
+  margin: 0;
+  padding 0;
+}
+
+ul{
+  list-style:circle;
+}
+
+button {
+   border: 1px solid #BEB991;
+   border-radius: 2em;
+   background: rgba(255, 255, 255, 0);
+   margin: 14px 0 0 1em;
+   padding: 1px 5px 0 5px;
+   color: #99967E;
+   font-size: 1rem;
+   vertical-align: top;
+   }
+button:hover {
+   background: rgba(255, 255, 255, 0);
+   color: #99967E;
+   }
+button:active {
+   background: rgba(255, 255, 255, 0);
+   }
+
+input, select, textarea{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+  font-size: 2em;
+  border: 0;
+  border-bottom:1px solid #FFF9CB;
+  background-color: #FFF9CB;
+  color: #99967E;
+  outline: none;
+}
+input:focus {
+  border-bottom:1px solid #99967E;
+  color: #99967E;
+  outline: none;
+}
+
+li{
+  grid-row: 1fr;
+}
+
+::placeholder{
+  color: #99967E;
+}
+
+::selection{
+  background-color: #99967E;
+  color: #FFF9CB;
+}
+
+#input{
+  margin: 0 2.5em 0 2.5em;
+}
+
+.item{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+  font-size: 2em;
+  margin: 1em 2.5rem 1em 0;
+}
+
+.done{
+  list-style:disc;
+  text-decoration: line-through;
+}
